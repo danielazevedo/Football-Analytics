@@ -11,3 +11,4 @@ In this repository I have explored some introductory concepts of football analyt
 - **Predict a substitute player rating**, based on the game statistics until the moment he enters in the game
 - Determination of the **best/most suitable position for a given player** (using FIFA 20 dataset)
 - Implementation of a **Genetic Algorithm for finding the best set of players to buy under a given budget**, for given positions, considering different criteria, as, for example, the player age (using FIFA 20 dataset)
+- Also, a **Tableau dashboard of Manchester City season** 2018/2019 and beginning of 2019/2020 is available at https://public.tableau.com/profile/daniel.azevedo#!/vizhome/Dashboard_ManchesterCity_Analysis/Home_Dashboard. In this dashboard one can see the team performance in terms of results (home and away), scores, game stats, player individual stats, players importance on the game result, and much more
