@@ -2,6 +2,7 @@
 
 In this repository I have explored some introductory concepts of football analytics using Event data and Tracking data from different sources. This includes:
 - Creation of a **Pitch Control Model**, which reflects the probability of the team getting the ball possession at a given filed position
+- Explore different **Pitch Control variants**, focused on **Ball Possession Retention**, **Vertical Game**, of **Game by the Flanks**
 - Computing the **value of a given action**, using SPADL structure data, based on the probability of a given action will end in goal
 - Predicting if a **game action will lead to a goal or not**, using Machine Learning
 - **Plots of different game features**, like a game move, shots frame and players passing and shooting accuracy
