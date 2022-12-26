@@ -1,6 +1,7 @@
 # Football-Analytics
 
 In this repository I have explored some concepts of football analytics using Event data and Tracking data from different sources. This includes:
+- **[Player detection and Shirt Number Identification](https://github.com/danielazevedo/Football-Analytics/tree/master/player_detection)** from game footages, using Deep Learning (Yolov3, CNN and VGG models). More information here: https://daniel-azevedo.medium.com/player-detection-using-deep-learning-492122c3bf9
 - Creation of a **[Pitch Control Model](https://github.com/danielazevedo/Football-Analytics/tree/master/pitch_control_variants)** (baseline), which reflects the probability of the team getting the ball possession at a given filed position
 - Explore different **[Pitch Control variants](https://github.com/danielazevedo/Football-Analytics/tree/master/pitch_control_variants)**, focused on **Ball Possession Retention**, **Vertical Game**, of **Game by the Flanks**
 - Computing the **[value of a given action](https://github.com/danielazevedo/Football-Analytics/tree/master/actions_value)**, using SPADL structure data, based on the probability of a given action will end in goal
@@ -13,6 +14,5 @@ In this repository I have explored some concepts of football analytics using Eve
 - Determination of the **[best/most suitable position for a given player](https://github.com/danielazevedo/Football-Analytics/tree/master/FIFA_20_analysis)** (using FIFA 20 dataset)
 - Implementation of a **[Genetic Algorithm for finding the best set of players to buy under a given budget](https://github.com/danielazevedo/Football-Analytics/tree/master/genetic_algorithms__Player_scouting)**, for given positions, considering different criteria, as, for example, the player age (using FIFA 20 dataset)
 - Capture **[Player playing style](https://github.com/danielazevedo/Football-Analytics/tree/master/playing_style)**, using **Non Negative Matrix Factorization**
-- **[Player detection and Shirt Number Identification](https://daniel-azevedo.medium.com/player-detection-using-deep-learning-492122c3bf9)** from game footages, using Deep Learning
 - Capture **[Team passing patterns](https://football-data-science.herokuapp.com/team_patterns)**, using **K-Means** applied to passing sequences
 - Also, a **[Tableau dashboard of Manchester City season](https://public.tableau.com/profile/daniel.azevedo#!/vizhome/Dashboard_ManchesterCity_Analysis/Home_Dashboard)** 2018/2019 and beginning of 2019/2020. In this dashboard one can see the team performance in terms of results (home and away), scores, game stats, player individual stats, players importance on the game result, and much more. The data was scraped from web and saved in BigQuery with an ETL job
